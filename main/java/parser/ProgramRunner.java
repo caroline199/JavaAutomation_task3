@@ -5,7 +5,7 @@ import utilities.Iterator;
 public class ProgramRunner {
 
     public static void main(String[] args) {
-        XMLParser parser = new XMLParser("src/test/resources/errorCommentXML.xml");
+        XMLParser parser = new XMLParser("/Users/karolinakiselyova/IdeaProjects/JavaAutomation_task3/main/java/test/resources/valid.xml");
         parser.parseDocument();
         if (parser.getErrors().isEmpty()) {
             System.out.println("Valid xml");
